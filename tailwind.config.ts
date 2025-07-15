@@ -63,12 +63,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				construction: {
-					orange: 'hsl(var(--construction-orange))',
-					'orange-light': 'hsl(var(--construction-orange-light))',
-					slate: 'hsl(var(--construction-slate))',
-					'slate-light': 'hsl(var(--construction-slate-light))',
-					earth: 'hsl(var(--construction-earth))',
-					warm: 'hsl(var(--construction-warm))'
+					red: 'hsl(var(--construction-red))',
+					'red-light': 'hsl(var(--construction-red-light))',
+					'red-dark': 'hsl(var(--construction-red-dark))',
+					black: 'hsl(var(--construction-black))',
+					'black-light': 'hsl(var(--construction-black-light))',
+					gray: 'hsl(var(--construction-gray))',
+					white: 'hsl(var(--construction-white))'
 				}
 			},
 			backgroundImage: {

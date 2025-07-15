@@ -74,7 +74,7 @@ const BeforeAfterCard = ({ item, index }: { item: typeof portfolioItems[0], inde
       </div>
       <p className="text-muted-foreground mb-2">{item.description}</p>
       <div className="flex justify-between items-center text-sm">
-        <span className="text-construction-orange font-medium">Duration: {item.duration}</span>
+        <span className="text-construction-red font-medium">Duration: {item.duration}</span>
       </div>
     </CardContent>
   </Card>
@@ -86,7 +86,7 @@ export const Portfolio = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Our <span className="text-construction-orange">Portfolio</span>
+            Our <span className="text-construction-red">Portfolio</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             See the transformations we've delivered for our satisfied clients.

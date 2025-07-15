@@ -40,10 +40,10 @@ export const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Our <span className="text-construction-orange">Services</span>
+            Our <span className="text-construction-red">Services</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From small repairs to complete renovations, we handle every aspect of your home improvement project.
+            From small repairs to complete renovations, we handle every aspect of your home improvement project across the South Shore of Montreal.
           </p>
         </div>
         
@@ -55,8 +55,8 @@ export const Services = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <CardHeader className="text-center">
-                <div className="mx-auto mb-4 p-3 bg-construction-orange/10 rounded-full w-fit">
-                  <service.icon className="h-8 w-8 text-construction-orange" />
+                <div className="mx-auto mb-4 p-3 bg-construction-red/10 rounded-full w-fit">
+                  <service.icon className="h-8 w-8 text-construction-red" />
                 </div>
                 <CardTitle className="text-xl">{service.title}</CardTitle>
               </CardHeader>

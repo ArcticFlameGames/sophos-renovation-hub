@@ -9,50 +9,51 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 210 11% 15%;
+    --foreground: 0 0% 9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 11% 15%;
+    --card-foreground: 0 0% 9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 11% 15%;
+    --popover-foreground: 0 0% 9%;
 
-    --primary: 25 85% 55%;
+    --primary: 0 84% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 11% 96%;
-    --secondary-foreground: 210 11% 15%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 9%;
 
-    --muted: 210 11% 96%;
-    --muted-foreground: 210 6% 46%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 210 11% 96%;
-    --accent-foreground: 210 11% 15%;
+    --accent: 0 0% 96%;
+    --accent-foreground: 0 0% 9%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 210 11% 91%;
-    --input: 210 11% 91%;
-    --ring: 25 85% 55%;
+    --border: 0 0% 89%;
+    --input: 0 0% 89%;
+    --ring: 0 84% 60%;
 
-    /* Construction-themed colors */
-    --construction-orange: 25 85% 55%;
-    --construction-orange-light: 25 85% 65%;
-    --construction-slate: 210 11% 15%;
-    --construction-slate-light: 210 11% 25%;
-    --construction-earth: 30 25% 35%;
-    --construction-warm: 35 45% 85%;
+    /* Construction red, white, black theme */
+    --construction-red: 0 84% 60%;
+    --construction-red-light: 0 84% 70%;
+    --construction-red-dark: 0 84% 50%;
+    --construction-black: 0 0% 9%;
+    --construction-black-light: 0 0% 15%;
+    --construction-gray: 0 0% 45%;
+    --construction-white: 0 0% 100%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--construction-orange)), hsl(var(--construction-orange-light)));
-    --gradient-section: linear-gradient(180deg, hsl(var(--background)), hsl(var(--construction-warm)));
-    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--construction-warm)));
+    --gradient-hero: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 84% 70%));
+    --gradient-section: linear-gradient(180deg, hsl(0 0% 100%), hsl(0 0% 98%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(0 0% 97%));
 
     /* Shadows */
-    --shadow-construction: 0 10px 30px -10px hsl(var(--construction-orange) / 0.3);
-    --shadow-card: 0 4px 20px -4px hsl(var(--construction-slate) / 0.1);
-    --shadow-hero: 0 20px 60px -20px hsl(var(--construction-orange) / 0.4);
+    --shadow-construction: 0 10px 30px -10px hsl(0 84% 60% / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(0 0% 9% / 0.1);
+    --shadow-hero: 0 20px 60px -20px hsl(0 84% 60% / 0.4);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

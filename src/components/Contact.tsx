@@ -36,10 +36,10 @@ export const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Start Your <span className="text-construction-orange">Project</span>
+            Start Your <span className="text-construction-red">Project</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to transform your home? Get a free quote today and let's discuss your vision.
+            Ready to transform your home? Get a free quote today and let's discuss your vision for your South Shore property.
           </p>
         </div>
 
@@ -134,32 +134,32 @@ export const Contact = () => {
                 <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
-                    <Phone className="h-5 w-5 text-construction-orange" />
-                    <span>(555) 123-4567</span>
+                    <Phone className="h-5 w-5 text-construction-red" />
+                    <span>(514) 555-0123</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <Mail className="h-5 w-5 text-construction-orange" />
+                    <Mail className="h-5 w-5 text-construction-red" />
                     <span>info@sophosconstruction.com</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <MapPin className="h-5 w-5 text-construction-orange" />
-                    <span>123 Construction Ave, Your City, ST 12345</span>
+                    <MapPin className="h-5 w-5 text-construction-red" />
+                    <span>South Shore of Montreal, QC</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <Clock className="h-5 w-5 text-construction-orange" />
+                    <Clock className="h-5 w-5 text-construction-red" />
                     <span>Mon-Fri: 7AM-6PM, Sat: 8AM-4PM</span>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="bg-construction-orange text-white">
+            <Card className="bg-construction-red text-white">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4">Emergency Repairs</h3>
                 <p className="mb-4">
-                  Need urgent repairs? We offer 24/7 emergency services for critical issues.
+                  Need urgent repairs in the South Shore area? We offer 24/7 emergency services for critical issues.
                 </p>
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-construction-orange">
+                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-construction-red">
                   Call Emergency Line
                 </Button>
               </CardContent>

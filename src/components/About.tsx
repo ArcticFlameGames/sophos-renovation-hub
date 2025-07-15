@@ -30,10 +30,10 @@ export const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Why Choose <span className="text-construction-orange">Sophos Construction</span>?
+            Why Choose <span className="text-construction-red">Sophos Construction</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We're not just contractors – we're your partners in creating the home of your dreams.
+            We're not just contractors – we're your partners in creating the home of your dreams across the South Shore of Montreal.
           </p>
         </div>
 
@@ -46,8 +46,8 @@ export const About = () => {
             >
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-construction-orange/10 rounded-full">
-                    <feature.icon className="h-6 w-6 text-construction-orange" />
+                  <div className="p-3 bg-construction-red/10 rounded-full">
+                    <feature.icon className="h-6 w-6 text-construction-red" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
