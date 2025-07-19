@@ -1,49 +1,53 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { useTranslation } from "react-i18next";
 import { Home, Wrench, Paintbrush, Hammer, Zap, Droplets } from "lucide-react";
 
-const services = [
+const getServices = (t: any) => [
   {
     icon: Home,
-    title: "Kitchen Renovations",
-    description: "Complete kitchen makeovers with modern appliances, custom cabinets, and beautiful countertops."
+    title: t('services.kitchen.title'),
+    description: t('services.kitchen.description')
   },
   {
     icon: Wrench,
-    title: "Basement Finishing",
-    description: "Transform your basement into a functional living space with proper insulation and finishing."
+    title: t('services.basement.title'),
+    description: t('services.basement.description')
   },
   {
     icon: Paintbrush,
-    title: "Exterior Improvements",
-    description: "Enhance your home's curb appeal with siding, roofing, and landscaping services."
+    title: t('services.exterior.title'),
+    description: t('services.exterior.description')
   },
   {
     icon: Hammer,
-    title: "General Repairs",
-    description: "Professional handyman services for all your home repair and maintenance needs."
+    title: t('services.bathroom.title'),
+    description: t('services.bathroom.description')
   },
   {
     icon: Zap,
-    title: "Electrical Work",
-    description: "Licensed electrical services including installations, repairs, and upgrades."
+    title: t('services.electrical.title'),
+    description: t('services.electrical.description')
   },
   {
     icon: Droplets,
-    title: "Plumbing Services",
-    description: "Complete plumbing solutions from repairs to full bathroom renovations."
+    title: t('services.flooring.title'),
+    description: t('services.flooring.description')
   }
 ];
 
 export const Services = () => {
+  const { t } = useTranslation();
+  const services = getServices(t);
+  
   return (
     <section className="py-20 bg-gradient-section">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Our <span className="text-construction-red">Services</span>
+            {t('services.title')} <span className="text-construction-red">{t('services.subtitle')}</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From small repairs to complete renovations, we handle every aspect of your home improvement project across the South Shore of Montreal.
+            {t('services.description')}
           </p>
         </div>
         

@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "title": "Transformez Votre Maison avec",
+    "subtitle": "Services Professionnels de Construction et Rénovation",
+    "description": "Sophos Construction offre des rénovations résidentielles sans stress sur la Rive-Sud de Montréal. Des cuisines aux sous-sols, nous gérons tous les détails avec un minimum de perturbation dans votre vie.",
+    "cta": "Soumission Gratuite",
+    "experience": "Années d'Excellence"
+  },
+  "services": {
+    "title": "Nos",
+    "subtitle": "Services",
+    "description": "Solutions complètes de rénovation sur la Rive-Sud de Montréal",
+    "kitchen": {
+      "title": "Rénovations de Cuisine",
+      "description": "Transformations complètes de cuisine avec des designs modernes et des finitions de qualité."
+    },
+    "basement": {
+      "title": "Finition de Sous-sol",
+      "description": "Transformez votre sous-sol non fini en un bel espace de vie fonctionnel."
+    },
+    "bathroom": {
+      "title": "Rénovation de Salle de Bain",
+      "description": "Rénovations de salle de bain de luxe avec attention aux moindres détails."
+    },
+    "exterior": {
+      "title": "Travaux Extérieurs",
+      "description": "Améliorez l'attrait de votre maison avec des rénovations extérieures professionnelles."
+    },
+    "flooring": {
+      "title": "Installation de Plancher",
+      "description": "Solutions de plancher de qualité pour chaque pièce de votre maison."
+    },
+    "electrical": {
+      "title": "Travaux Électriques",
+      "description": "Services électriques agréés pour tous vos besoins d'amélioration domiciliaire."
+    }
+  },
+  "about": {
+    "title": "Pourquoi Choisir",
+    "companyName": "Sophos Construction",
+    "description": "Nous ne sommes pas que des entrepreneurs – nous sommes vos partenaires pour créer la maison de vos rêves sur la Rive-Sud de Montréal.",
+    "features": {
+      "quality": {
+        "title": "Artisanat de Qualité",
+        "description": "Nous sommes fiers de livrer un travail exceptionnel sur chaque projet."
+      },
+      "minimal": {
+        "title": "Points de Contact Minimaux",
+        "description": "Nous gérons tout avec un minimum de perturbation de votre routine quotidienne."
+      },
+      "licensed": {
+        "title": "Entièrement Licencié et Assuré",
+        "description": "Tranquillité d'esprit complète avec notre équipe licenciée, cautionnée et assurée."
+      },
+      "experienced": {
+        "title": "Équipe Expérimentée",
+        "description": "Nos professionnels qualifiés apportent des années d'expérience à chaque projet."
+      }
+    },
+    "promise": {
+      "title": "Notre Promesse",
+      "description": "Chez Sophos Construction, nous croyons qu'il faut rendre les rénovations résidentielles sans stress. Notre approche non-intrusive signifie que vous pouvez vous concentrer sur votre vie pendant que nous gérons chaque détail de votre projet. De la consultation initiale au nettoyage final, nous nous occupons de tout."
+    }
+  },
+  "portfolio": {
+    "title": "Notre",
+    "subtitle": "Portfolio",
+    "description": "Voyez les transformations que nous avons livrées pour nos clients satisfaits.",
+    "tabs": {
+      "all": "Tous les Projets",
+      "kitchen": "Cuisine",
+      "basement": "Sous-sol",
+      "exterior": "Extérieur"
+    },
+    "projects": {
+      "kitchen": {
+        "title": "Transformation de Cuisine Moderne",
+        "description": "Rénovation complète de cuisine avec nouvelles armoires, comptoirs et électroménagers.",
+        "type": "Rénovation de Cuisine"
+      },
+      "basement": {
+        "title": "Salle Familiale au Sous-sol",
+        "description": "Sous-sol non fini converti en espace de divertissement familial confortable.",
+        "type": "Finition de Sous-sol"
+      },
+      "exterior": {
+        "title": "Relooking Extérieur",
+        "description": "Rénovation extérieure complète avec nouveau revêtement, fenêtres et aménagement paysager.",
+        "type": "Rénovation Extérieure"
+      }
+    },
+    "duration": "Durée",
+    "before": "Avant",
+    "after": "Après"
+  },
+  "contact": {
+    "title": "Prêt à Transformer Votre Maison?",
+    "subtitle": "Obtenez Votre Soumission Gratuite Aujourd'hui",
+    "description": "Contactez-nous pour une consultation et soumission gratuite. Nous desservons toute la Rive-Sud de Montréal et les environs.",
+    "form": {
+      "name": "Nom Complet",
+      "email": "Courriel",
+      "phone": "Numéro de Téléphone",
+      "project": "Type de Projet",
+      "projectOptions": {
+        "kitchen": "Rénovation de Cuisine",
+        "bathroom": "Rénovation de Salle de Bain",
+        "basement": "Finition de Sous-sol",
+        "exterior": "Travaux Extérieurs",
+        "flooring": "Plancher",
+        "electrical": "Travaux Électriques",
+        "other": "Autre"
+      },
+      "message": "Parlez-nous de votre projet...",
+      "submit": "Soumission Gratuite"
+    },
+    "info": {
+      "phone": "Téléphone",
+      "email": "Courriel",
+      "location": "Zone de Service",
+      "locationValue": "Rive-Sud de Montréal"
+    },
+    "success": "Merci! Nous vous contacterons dans les 24 heures pour discuter de votre projet.",
+    "error": "Il y a eu une erreur lors de l'envoi de votre message. Veuillez réessayer."
+  },
+  "language": {
+    "english": "English",
+    "french": "Français"
+  }
+}

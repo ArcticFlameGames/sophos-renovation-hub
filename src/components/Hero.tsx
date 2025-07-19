@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone, Mail } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import heroImage from "@/assets/hero-construction.jpg";
 
 export const Hero = () => {
+  const { t } = useTranslation();
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-section">
       <div className="absolute inset-0 bg-black/20" />
@@ -13,22 +16,21 @@ export const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="text-construction-red">Sophos</span> Construction
+            {t('hero.title')} <span className="text-construction-red">Sophos Construction</span>
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-gray-100 max-w-2xl mx-auto">
-            Professional home renovations and repairs with minimal touch points. 
-            We handle everything so you don't have to.
+            {t('hero.subtitle')}
           </p>
           <p className="text-lg mb-8 text-gray-200 max-w-2xl mx-auto">
-            Proudly serving the South Shore of Montreal and surrounding areas
+            {t('hero.description')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              Get Free Quote
+              {t('hero.cta')}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button variant="outline-construction" size="lg" className="text-lg px-8 py-4 bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white hover:text-construction-red">
-              View Our Work
+              {t('portfolio.title')}
             </Button>
           </div>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center text-sm">

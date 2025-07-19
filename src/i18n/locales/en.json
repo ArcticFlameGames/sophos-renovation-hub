@@ -1,0 +1,130 @@
+{
+  "hero": {
+    "title": "Transform Your Home with",
+    "subtitle": "Professional Construction & Renovation Services",
+    "description": "Sophos Construction provides hands-off, stress-free home renovations across the South Shore of Montreal. From kitchens to basements, we handle every detail with minimal disruption to your life.",
+    "cta": "Get Free Quote",
+    "experience": "Years of Excellence"
+  },
+  "services": {
+    "title": "Our",
+    "subtitle": "Services",
+    "description": "Comprehensive renovation solutions across the South Shore of Montreal",
+    "kitchen": {
+      "title": "Kitchen Renovations",
+      "description": "Complete kitchen transformations with modern designs and quality finishes."
+    },
+    "basement": {
+      "title": "Basement Finishing",
+      "description": "Turn your unfinished basement into a beautiful, functional living space."
+    },
+    "bathroom": {
+      "title": "Bathroom Remodeling",
+      "description": "Luxury bathroom renovations with attention to every detail."
+    },
+    "exterior": {
+      "title": "Exterior Work",
+      "description": "Enhance your home's curb appeal with professional exterior renovations."
+    },
+    "flooring": {
+      "title": "Flooring Installation",
+      "description": "Quality flooring solutions for every room in your home."
+    },
+    "electrical": {
+      "title": "Electrical Work",
+      "description": "Licensed electrical services for all your home improvement needs."
+    }
+  },
+  "about": {
+    "title": "Why Choose",
+    "companyName": "Sophos Construction",
+    "description": "We're not just contractors – we're your partners in creating the home of your dreams across the South Shore of Montreal.",
+    "features": {
+      "quality": {
+        "title": "Quality Craftsmanship",
+        "description": "We take pride in delivering exceptional workmanship on every project."
+      },
+      "minimal": {
+        "title": "Minimal Touch Points",
+        "description": "We handle everything with minimal disruption to your daily routine."
+      },
+      "licensed": {
+        "title": "Fully Licensed & Insured",
+        "description": "Complete peace of mind with our licensed, bonded, and insured team."
+      },
+      "experienced": {
+        "title": "Experienced Team",
+        "description": "Our skilled professionals bring years of experience to every project."
+      }
+    },
+    "promise": {
+      "title": "Our Promise",
+      "description": "At Sophos Construction, we believe in making home renovations stress-free. Our hands-off approach means you can focus on your life while we handle every detail of your project. From initial consultation to final cleanup, we've got you covered."
+    }
+  },
+  "portfolio": {
+    "title": "Our",
+    "subtitle": "Portfolio",
+    "description": "See the transformations we've delivered for our satisfied clients.",
+    "tabs": {
+      "all": "All Projects",
+      "kitchen": "Kitchen",
+      "basement": "Basement",
+      "exterior": "Exterior"
+    },
+    "projects": {
+      "kitchen": {
+        "title": "Modern Kitchen Transformation",
+        "description": "Complete kitchen renovation with new cabinets, countertops, and appliances.",
+        "type": "Kitchen Renovation"
+      },
+      "basement": {
+        "title": "Basement Family Room",
+        "description": "Unfinished basement converted into a cozy family entertainment space.",
+        "type": "Basement Finishing"
+      },
+      "exterior": {
+        "title": "Exterior Makeover",
+        "description": "Complete exterior renovation with new siding, windows, and landscaping.",
+        "type": "Exterior Renovation"
+      }
+    },
+    "duration": "Duration",
+    "before": "Before",
+    "after": "After"
+  },
+  "contact": {
+    "title": "Ready to Transform Your Home?",
+    "subtitle": "Get Your Free Quote Today",
+    "description": "Contact us for a free consultation and quote. We serve the entire South Shore of Montreal and surrounding areas.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "project": "Project Type",
+      "projectOptions": {
+        "kitchen": "Kitchen Renovation",
+        "bathroom": "Bathroom Remodeling",
+        "basement": "Basement Finishing",
+        "exterior": "Exterior Work",
+        "flooring": "Flooring",
+        "electrical": "Electrical Work",
+        "other": "Other"
+      },
+      "message": "Tell us about your project...",
+      "submit": "Get Free Quote"
+    },
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Service Area",
+      "locationValue": "South Shore of Montreal"
+    },
+    "success": "Thank you! We'll contact you within 24 hours to discuss your project.",
+    "error": "There was an error sending your message. Please try again."
+  },
+  "language": {
+    "english": "English",
+    "french": "Français"
+  }
+}

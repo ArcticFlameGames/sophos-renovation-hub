@@ -6,8 +6,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { useTranslation } from "react-i18next";
 
 export const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -21,8 +23,8 @@ export const Contact = () => {
     e.preventDefault();
     // Here you would typically send the form data to your backend
     toast({
-      title: "Thank you for your submission!",
-      description: "We'll get back to you within 24 hours with a free quote.",
+      title: t('contact.success'),
+      description: "",
     });
     setFormData({ name: "", email: "", phone: "", projectType: "", message: "" });
   };
@@ -36,23 +38,26 @@ export const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Start Your <span className="text-construction-red">Project</span>
+            {t('contact.title')}
           </h2>
+          <p className="text-xl font-semibold mb-4 text-construction-red">
+            {t('contact.subtitle')}
+          </p>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to transform your home? Get a free quote today and let's discuss your vision for your South Shore property.
+            {t('contact.description')}
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <Card className="bg-gradient-card animate-slide-up">
             <CardHeader>
-              <CardTitle className="text-2xl">Get Your Free Quote</CardTitle>
+              <CardTitle className="text-2xl">{t('contact.subtitle')}</CardTitle>
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <Label htmlFor="name">Full Name</Label>
+                    <Label htmlFor="name">{t('contact.form.name')}</Label>
                     <Input
                       id="name"
                       name="name"
@@ -63,7 +68,7 @@ export const Contact = () => {
                     />
                   </div>
                   <div>
-                    <Label htmlFor="email">Email</Label>
+                    <Label htmlFor="email">{t('contact.form.email')}</Label>
                     <Input
                       id="email"
                       name="email"
@@ -78,7 +83,7 @@ export const Contact = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <Label htmlFor="phone">Phone Number</Label>
+                    <Label htmlFor="phone">{t('contact.form.phone')}</Label>
                     <Input
                       id="phone"
                       name="phone"
@@ -90,27 +95,27 @@ export const Contact = () => {
                     />
                   </div>
                   <div>
-                    <Label htmlFor="projectType">Project Type</Label>
+                    <Label htmlFor="projectType">{t('contact.form.project')}</Label>
                     <Input
                       id="projectType"
                       name="projectType"
                       value={formData.projectType}
                       onChange={handleChange}
-                      placeholder="e.g., Kitchen Renovation"
+                      placeholder={t('contact.form.projectOptions.kitchen')}
                       className="mt-1"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <Label htmlFor="message">Project Description</Label>
+                  <Label htmlFor="message">{t('contact.form.message')}</Label>
                   <Textarea
                     id="message"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    placeholder="Tell us about your project..."
+                    placeholder={t('contact.form.message')}
                     required
                     className="mt-1"
                   />
@@ -122,7 +127,7 @@ export const Contact = () => {
                   size="lg" 
                   className="w-full"
                 >
-                  Get Free Quote
+                  {t('contact.form.submit')}
                 </Button>
               </form>
             </CardContent>
@@ -131,7 +136,7 @@ export const Contact = () => {
           <div className="space-y-8 animate-slide-up" style={{ animationDelay: "200ms" }}>
             <Card className="bg-gradient-card">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+                <h3 className="text-2xl font-bold mb-6">{t('contact.info.phone')}</h3>
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-construction-red" />
@@ -143,7 +148,7 @@ export const Contact = () => {
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-construction-red" />
-                    <span>South Shore of Montreal, QC</span>
+                    <span>{t('contact.info.locationValue')}</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Clock className="h-5 w-5 text-construction-red" />
