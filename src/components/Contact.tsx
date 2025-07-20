@@ -164,7 +164,7 @@ export const Contact = () => {
                 <p className="mb-4">
                   Need urgent repairs in the South Shore area? We offer 24/7 emergency services for critical issues.
                 </p>
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-construction-red">
+                <Button variant="default" className="bg-white text-construction-red hover:bg-gray-100">
                   Call Emergency Line
                 </Button>
               </CardContent>
