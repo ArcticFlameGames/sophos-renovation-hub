@@ -12,13 +12,16 @@ export const LanguageToggle = () => {
 
   return (
     <Button
-      variant="outline"
+      variant="ghost"
       size="sm"
       onClick={toggleLanguage}
-      className="fixed top-4 right-4 z-50 bg-background/80 backdrop-blur-sm"
+      className="text-foreground/70 hover:text-foreground"
+      aria-label={i18n.language === 'en' ? t('language.french') : t('language.english')}
     >
-      <Globe className="h-4 w-4 mr-2" />
-      {i18n.language === 'en' ? t('language.french') : t('language.english')}
+      <Globe className="h-4 w-4" />
+      <span className="ml-2 hidden sm:inline">
+        {i18n.language === 'en' ? 'FR' : 'EN'}
+      </span>
     </Button>
   );
 };

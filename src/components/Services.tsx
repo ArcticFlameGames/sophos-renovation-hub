@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
-import { Home, Wrench, Paintbrush, Hammer, Zap, Droplets } from "lucide-react";
+import { Home, Wrench, Paintbrush, Hammer, Zap, Layers } from "lucide-react";
 
 const getServices = (t: any) => [
   {
@@ -29,7 +29,7 @@ const getServices = (t: any) => [
     description: t('services.electrical.description')
   },
   {
-    icon: Droplets,
+    icon: Layers,
     title: t('services.flooring.title'),
     description: t('services.flooring.description')
   }
