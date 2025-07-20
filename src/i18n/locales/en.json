@@ -7,7 +7,7 @@
     "experience": "Years of Excellence"
   },
   "services": {
-    "title": "Our",
+    "title": "View Our Work",
     "subtitle": "Services",
     "description": "Comprehensive renovation solutions across the South Shore of Montreal",
     "kitchen": {
@@ -63,7 +63,7 @@
     }
   },
   "portfolio": {
-    "title": "Our",
+    "title": "View Our Work",
     "subtitle": "Portfolio",
     "description": "See the transformations we've delivered for our satisfied clients.",
     "tabs": {
@@ -115,10 +115,10 @@
       "submit": "Get Free Quote"
     },
     "info": {
-      "phone": "Phone",
-      "email": "Email",
+      "phone": "(514) 606-7332",
+      "email": "construction.sophos@gmail.com",
       "location": "Service Area",
-      "locationValue": "South Shore of Montreal"
+      "locationValue": "South Shore of Montreal, QC"
     },
     "success": "Thank you! We'll contact you within 24 hours to discuss your project.",
     "error": "There was an error sending your message. Please try again."

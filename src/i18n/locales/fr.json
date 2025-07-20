@@ -94,31 +94,45 @@
     "after": "Après"
   },
   "contact": {
-    "title": "Prêt à Transformer Votre Maison?",
-    "subtitle": "Obtenez Votre Soumission Gratuite Aujourd'hui",
+    "title": "Commencez Votre <span class='text-construction-red'>Projet</span>",
+    "subtitle": "Prêt à transformer votre maison ? Obtenez une soumission gratuite dès aujourd'hui et discutons de votre vision pour votre propriété sur la Rive-Sud.",
     "description": "Contactez-nous pour une consultation et soumission gratuite. Nous desservons toute la Rive-Sud de Montréal et les environs.",
     "form": {
-      "name": "Nom Complet",
-      "email": "Courriel",
-      "phone": "Numéro de Téléphone",
-      "project": "Type de Projet",
-      "projectOptions": {
-        "kitchen": "Rénovation de Cuisine",
-        "bathroom": "Rénovation de Salle de Bain",
-        "basement": "Finition de Sous-sol",
-        "exterior": "Travaux Extérieurs",
-        "flooring": "Plancher",
-        "electrical": "Travaux Électriques",
-        "other": "Autre"
+      "title": "Obtenez Votre Soumission Gratuite",
+      "fields": {
+        "name": "Nom Complet",
+        "email": "Courriel",
+        "phone": "Téléphone",
+        "projectType": "Type de Projet",
+        "message": "Description du Projet"
       },
-      "message": "Parlez-nous de votre projet...",
-      "submit": "Soumission Gratuite"
+      "placeholders": {
+        "projectType": "ex. : Rénovation de cuisine",
+        "message": "Décrivez-nous votre projet..."
+      },
+      "submit": "Obtenir une Soumission Gratuite"
+    },
+    "contactInfo": {
+      "title": "Coordonnées",
+      "phone": "(514) 606-7332",
+      "email": "construction.sophos@gmail.com",
+      "address": "Rive-Sud de Montréal, QC",
+      "hours": "Lun-Ven : 7h-18h, Sam : 8h-16h"
+    },
+    "emergency": {
+      "title": "Réparations d'Urgence",
+      "description": "Besoin de réparations urgentes sur la Rive-Sud ? Nous offrons un service d'urgence 24/7 pour les problèmes critiques.",
+      "button": "Appel d'Urgence"
+    },
+    "toast": {
+      "title": "Merci pour votre demande !",
+      "description": "Nous vous contacterons dans les 24 heures avec une soumission gratuite."
     },
     "info": {
-      "phone": "Téléphone",
-      "email": "Courriel",
+      "phone": "(514) 606-7332",
+      "email": "construction.sophos@gmail.com",
       "location": "Zone de Service",
-      "locationValue": "Rive-Sud de Montréal"
+      "locationValue": "Rive-Sud de Montréal, QC"
     },
     "success": "Merci! Nous vous contacterons dans les 24 heures pour discuter de votre projet.",
     "error": "Il y a eu une erreur lors de l'envoi de votre message. Veuillez réessayer."
