@@ -39,7 +39,7 @@
     },
     "electrical": {
       "title": "Travaux Électriques",
-      "description": "Services électriques agréés pour tous vos besoins d'amélioration domiciliaire."
+      "description": "Services électriques pour tous vos besoins en rénovation domiciliaire."
     }
   },
   "about": {
@@ -101,6 +101,11 @@
         "title": "Relooking Extérieur",
         "description": "Rénovation extérieure complète avec nouveau revêtement, fenêtres et aménagement paysager.",
         "type": "Rénovation Extérieure"
+      },
+      "exteriorDeck": {
+        "title": "Relooking de Deck",
+        "description": "Rénovation complète d'une terrasse avec de nouveaux planchers et garde-corps en composite. Transformation d'une terrasse usée en un magnifique espace de vie extérieur.",
+        "type": "Relooking de Deck"
       }
     }
   },

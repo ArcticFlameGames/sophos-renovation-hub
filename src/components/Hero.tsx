@@ -2,20 +2,22 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
-import heroImage from "@/assets/hero-construction.jpg";
+import heroImage from "@/assets/hero-construction-2.jpg";
+import logo from "@/assets/logotransparent.png";
 
 export const Hero = () => {
   const { t } = useTranslation();
   
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-section">
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0 bg-black/70" />
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat mix-blend-overlay"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto animate-fade-in">
+          <img src={logo} alt="" className="md:h-52 h-28 mt-24 mb-6 mx-auto" />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             {t('hero.title')} <span className="text-construction-red">Sophos Construction</span>
           </h1>

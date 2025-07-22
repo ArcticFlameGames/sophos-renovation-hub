@@ -195,11 +195,6 @@ const BeforeAfterCard = ({ item, index, t, onImageClick }: { item: PortfolioItem
           )}
         </div>
         <p className="text-muted-foreground mb-2">{item.description}</p>
-        <div className="flex justify-between items-center text-sm">
-          <span className="text-construction-red font-medium">
-            {t('portfolio.duration')}: {t('portfolio.durations.week_other', { count: parseInt(item.duration) })}
-          </span>
-        </div>
       </CardContent>
     </Card>
   );

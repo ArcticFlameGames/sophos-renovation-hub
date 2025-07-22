@@ -39,7 +39,7 @@
     },
     "electrical": {
       "title": "Electrical Work",
-      "description": "Licensed electrical services for all your home improvement needs."
+      "description": "Electrical services for all your home improvement needs."
     }
   },
   "about": {
@@ -70,7 +70,7 @@
     }
   },
   "portfolio": {
-    "title": "Our Recent",
+    "title": "View Our Work",
     "subtitle": "Portfolio",
     "description": "Explore our latest renovation projects and see the transformation for yourself.",
     "before": "Before",
