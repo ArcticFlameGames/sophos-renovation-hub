@@ -73,10 +73,17 @@
     "title": "Notre",
     "subtitle": "Portfolio",
     "description": "Voyez les transformations que nous avons livrées pour nos clients satisfaits.",
+    "before": "Avant",
+    "after": "Après",
+    "duration": "Durée",
+    "durations": {
+      "week_one": "{{count}} semaine",
+      "week_other": "{{count}} semaines"
+    },
     "tabs": {
       "all": "Tous les Projets",
       "kitchen": "Cuisine",
-      "basement": "Sous-sol",
+      "bedroom": "Chambre",
       "exterior": "Extérieur"
     },
     "projects": {
@@ -85,20 +92,17 @@
         "description": "Rénovation complète de cuisine avec nouvelles armoires, comptoirs et électroménagers.",
         "type": "Rénovation de Cuisine"
       },
-      "basement": {
-        "title": "Salle Familiale au Sous-sol",
-        "description": "Sous-sol non fini converti en espace de divertissement familial confortable.",
-        "type": "Finition de Sous-sol"
+      "bedroom": {
+        "title": "Transformation des murs de chambre",
+        "description": "Transformation des murs de chambre en un espace de divertissement familial confortable.",
+        "type": "Transformation des murs de chambre"
       },
       "exterior": {
         "title": "Relooking Extérieur",
         "description": "Rénovation extérieure complète avec nouveau revêtement, fenêtres et aménagement paysager.",
         "type": "Rénovation Extérieure"
       }
-    },
-    "duration": "Durée",
-    "before": "Avant",
-    "after": "Après"
+    }
   },
   "contact": {
     "title": "Commencez Votre Projet",

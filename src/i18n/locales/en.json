@@ -70,13 +70,20 @@
     }
   },
   "portfolio": {
-    "title": "View Our Work",
+    "title": "Our Recent",
     "subtitle": "Portfolio",
-    "description": "See the transformations we've delivered for our satisfied clients.",
+    "description": "Explore our latest renovation projects and see the transformation for yourself.",
+    "before": "Before",
+    "after": "After",
+    "duration": "Duration",
+    "durations": {
+      "week_one": "{{count}} week",
+      "week_other": "{{count}} weeks"
+    },
     "tabs": {
       "all": "All Projects",
       "kitchen": "Kitchen",
-      "basement": "Basement",
+      "bedroom": "Bedroom",
       "exterior": "Exterior"
     },
     "projects": {
@@ -85,10 +92,10 @@
         "description": "Complete kitchen renovation with new cabinets, countertops, and appliances.",
         "type": "Kitchen Renovation"
       },
-      "basement": {
-        "title": "Basement Family Room",
-        "description": "Unfinished basement converted into a cozy family entertainment space.",
-        "type": "Basement Finishing"
+      "bedroom": {
+        "title": "Bedroom Walls Transformation",
+        "description": "Transformed old bedroom walls into a cozy family entertainment space.",
+        "type": "Bedroom Walls Transformation"
       },
       "exterior": {
         "title": "Exterior Makeover",
@@ -100,10 +107,7 @@
         "description": "Complete deck renovation with new composite decking and railings. Transformed an old, worn-out deck into a beautiful outdoor living space.",
         "type": "Exterior Deck Renovation"
       }
-    },
-    "duration": "Duration",
-    "before": "Before",
-    "after": "After"
+    }
   },
   "contact": {
     "title": "Ready to Transform Your Home?",
