@@ -24,11 +24,6 @@ const getServices = (t: any) => [
     description: t('services.bathroom.description')
   },
   {
-    icon: Zap,
-    title: t('services.electrical.title'),
-    description: t('services.electrical.description')
-  },
-  {
     icon: Layers,
     title: t('services.flooring.title'),
     description: t('services.flooring.description')
